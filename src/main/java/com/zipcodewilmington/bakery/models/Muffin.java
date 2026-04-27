@@ -2,8 +2,12 @@ package com.zipcodewilmington.bakery.models;
 
 import java.util.Objects;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+@Entity
 public class Muffin {
-
+    
+    @Id
     private Long id;
 
     private String flavor;
